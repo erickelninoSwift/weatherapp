@@ -21,13 +21,13 @@ class SecondViewController: UIViewController
     var city:String = ""
     
     
-    var erickelninoelegate:getCityName?
+    var erickelninoDelegate:getCityName?
    
     
     @IBAction func button_Pressed(_ sender: AnyObject)
     {
 
-            erickelninoelegate!.passCityName(City:ErickFields.text!)
+            erickelninoDelegate!.passCityName(City:ErickFields.text!)
              dismiss(animated: true, completion: nil)
 
       
