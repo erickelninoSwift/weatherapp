@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BE724F31AD6303B75577F09 /* Pods_WeatherAppbyElnino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8B4224F1DB4E0911EA9357 /* Pods_WeatherAppbyElnino.framework */; };
+		7612FD4D248C5CB800FBAA89 /* DatamodeWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612FD4C248C5CB800FBAA89 /* DatamodeWeather.swift */; };
+		7612FD4F248C668A00FBAA89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612FD4E248C668A00FBAA89 /* SecondViewController.swift */; };
 		767EA30C248C317E00E8F117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767EA30B248C317E00E8F117 /* AppDelegate.swift */; };
 		767EA30E248C317E00E8F117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767EA30D248C317E00E8F117 /* ViewController.swift */; };
 		767EA311248C317E00E8F117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767EA30F248C317E00E8F117 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7612FD4C248C5CB800FBAA89 /* DatamodeWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatamodeWeather.swift; sourceTree = "<group>"; };
+		7612FD4E248C668A00FBAA89 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		767EA308248C317E00E8F117 /* WeatherAppbyElnino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppbyElnino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767EA30B248C317E00E8F117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		767EA30D248C317E00E8F117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		767EA312248C317F00E8F117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767EA315248C317F00E8F117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767EA317248C317F00E8F117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ECF66525786E1CEDAB0B0A /* Pods-WeatherAppbyElnino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppbyElnino.debug.xcconfig"; path = "Target Support Files/Pods-WeatherAppbyElnino/Pods-WeatherAppbyElnino.debug.xcconfig"; sourceTree = "<group>"; };
+		D75B0BFB0422CF7E89205C85 /* Pods-WeatherAppbyElnino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherAppbyElnino.release.xcconfig"; path = "Target Support Files/Pods-WeatherAppbyElnino/Pods-WeatherAppbyElnino.release.xcconfig"; sourceTree = "<group>"; };
+		DD8B4224F1DB4E0911EA9357 /* Pods_WeatherAppbyElnino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherAppbyElnino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE724F31AD6303B75577F09 /* Pods_WeatherAppbyElnino.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AABEF07309E0998F4D01340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B4224F1DB4E0911EA9357 /* Pods_WeatherAppbyElnino.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		767EA2FF248C317E00E8F117 = {
 			isa = PBXGroup;
 			children = (
 				767EA30A248C317E00E8F117 /* WeatherAppbyElnino */,
 				767EA309248C317E00E8F117 /* Products */,
+				A176E33F84CC0A6605AF83EA /* Pods */,
+				5AABEF07309E0998F4D01340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +73,8 @@
 		767EA30A248C317E00E8F117 /* WeatherAppbyElnino */ = {
 			isa = PBXGroup;
 			children = (
+				7612FD4C248C5CB800FBAA89 /* DatamodeWeather.swift */,
+				7612FD4E248C668A00FBAA89 /* SecondViewController.swift */,
 				767EA30B248C317E00E8F117 /* AppDelegate.swift */,
 				767EA30D248C317E00E8F117 /* ViewController.swift */,
 				767EA30F248C317E00E8F117 /* Main.storyboard */,
@@ -64,6 +85,15 @@
 			path = WeatherAppbyElnino;
 			sourceTree = "<group>";
 		};
+		A176E33F84CC0A6605AF83EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4ECF66525786E1CEDAB0B0A /* Pods-WeatherAppbyElnino.debug.xcconfig */,
+				D75B0BFB0422CF7E89205C85 /* Pods-WeatherAppbyElnino.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 767EA31A248C317F00E8F117 /* Build configuration list for PBXNativeTarget "WeatherAppbyElnino" */;
 			buildPhases = (
+				8BA6616039A90C00624381E3 /* [CP] Check Pods Manifest.lock */,
 				767EA304248C317E00E8F117 /* Sources */,
 				767EA305248C317E00E8F117 /* Frameworks */,
 				767EA306248C317E00E8F117 /* Resources */,
+				0150A8E94457D00409B2124F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +162,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0150A8E94457D00409B2124F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherAppbyElnino/Pods-WeatherAppbyElnino-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherAppbyElnino/Pods-WeatherAppbyElnino-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherAppbyElnino/Pods-WeatherAppbyElnino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA6616039A90C00624381E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherAppbyElnino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		767EA304248C317E00E8F117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7612FD4F248C668A00FBAA89 /* SecondViewController.swift in Sources */,
+				7612FD4D248C5CB800FBAA89 /* DatamodeWeather.swift in Sources */,
 				767EA30E248C317E00E8F117 /* ViewController.swift in Sources */,
 				767EA30C248C317E00E8F117 /* AppDelegate.swift in Sources */,
 			);
@@ -280,8 +356,10 @@
 		};
 		767EA31B248C317F00E8F117 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ECF66525786E1CEDAB0B0A /* Pods-WeatherAppbyElnino.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SH48NLQR9Y;
 				INFOPLIST_FILE = WeatherAppbyElnino/Info.plist;
@@ -289,17 +367,20 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Zandoconsulting.WeatherAppbyElnino;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherAppByElnino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		767EA31C248C317F00E8F117 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75B0BFB0422CF7E89205C85 /* Pods-WeatherAppbyElnino.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SH48NLQR9Y;
 				INFOPLIST_FILE = WeatherAppbyElnino/Info.plist;
@@ -307,10 +388,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Zandoconsulting.WeatherAppbyElnino;
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherAppByElnino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
